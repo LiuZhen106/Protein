@@ -1,1 +1,472 @@
-http://www.liuzhen106.com
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta name="description" content="Rearch on structure and function of enzyme.">
+	<meta name="keywords" content="蛋白质，结构，分子克隆，引物">
+	<meta name="author" content="liuzhen">	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LiuZhen's Home</title>
+	<link rel="stylesheet" href="http://liuzhen106.com/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://liuzhen106.com/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="http://liuzhen106.com/js/bootstrap.min.js"></script>
+	<style>
+		a:link {text-decoration: none;}
+		a:visited {text-decoration: none;}
+		a:hover {text-decoration: none;}
+		a:active {text-decoration: none;}
+		.span_3 {width: 200px;padding: 0px;margin: 0px;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="span4" style="padding-top: 20px;">
+				<h2 style="text-shadow: 2px 2px 2px black;">Hello,Young Man!</h2>
+			</div>
+			<div class="span4" id="music" style="padding-top: 36px;">
+				<audio controls loop>
+					<source src="http://liuzhen106.com/media/too_far.mp3" type="audio/mpeg">
+				</audio>
+			</div>			
+			<div class="span4" style="padding: 0px;">
+				<img src="http://liuzhen106.com/img/dingfengbo.png" style="width: 90%;float: right;">
+			</div>
+			<div class="span12">
+				<div class="navbar navbar-dark bg-dark">
+					<div class="navbar-inner">
+						<div class="container-fluid">
+							<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+							<a href="#" class="brand">蛋白质矿工</a>
+							<div class="nav-collapse collapse navbar-responsive-collapse">
+								<ul class="nav">
+									<li class="active">
+										<a href="#">主页</a>
+									</li>
+									<li>
+										<a href="http://liuzhen106.com/clone/index.html">分子克隆</a>
+									</li>
+									<li>
+										<a href="http://liuzhen106.com/protein/index.html">蛋白质表达与纯化</a>
+									</li>
+									<li>
+										<a href="http://liuzhen106.com/structure/index.html">蛋白质功能与结构</a>
+									</li>
+									<li>
+										<a href="http://liuzhen106.com/biopath/index.html">代谢通路与途径</a>
+									</li>
+									<li>
+										<a href="http://liuzhen106.com/tools/index.html">自编工具</a>
+									</li>
+									<li class="dropdown">
+										 <a data-toggle="dropdown" class="dropdown-toggle" href="">其他<strong class="caret"></strong></a>
+										<ul class="dropdown-menu">
+											<li>
+												<a target="_blank" href="http://liuzhen106.com/tools/109.html">随机DNA生成</a>
+											</li>
+											<li>
+												<a target="_blank" href="http://liuzhen106.comhttp://liuzhen106.com/tools/reLinefeed.html">空格去除</a>
+											</li>
+											<li>
+												<a target="_blank" href="http://liuzhen106.com/tools/log.html">工作日记</a>
+											</li>
+											<li>
+												<a target="_blank" href="http://liuzhen106.com/tools/upload.html">文件上传</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>							
+						</div>
+					</div>					
+				</div>
+				<div class="accordion" id="database">
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#all">综合数据库</a>
+						</div>
+						<div class="accordion-body collapse in" id="all">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://www.ncbi.nlm.nih.gov/guide/sitemap/">NCBI</a>
+								<a target="_blank" class="span_3" href="https://www.uniprot.org/">UniPort</a>
+								<a target="_blank" title="美国蛋白质结构数据库" class="span_3" href="https://www.rcsb.org/">RCSB PDB</a>
+								<a target="_blank" title="生物信息资源门户，包括不同领域的科学数据库和软件工具，如蛋白质组学，基因组学，系统发育，种群遗传学，转录组学等" class="span_3" href="https://www.expasy.org/resources">ExPASy</a>
+								<a target="_blank" title="日本维护的基因及基因组综合数据库，包括著名的代谢途径数据库" class="span_3" href="https://www.kegg.jp/">KEGG</a>
+								<a target="_blank" title="北卡罗来纳州立大学维护的一个核酸序列综合分析工具集" class="span_3" href="http://snap.hpc.ncsu.edu/cgi-bin/mobyle/portal.py#forms::cipres_mafft">Mobyle</a>
+								<a target="_blank" title="大肠杆菌、酵母、链霉菌综合信息库" class="span_3" href="https://openwetware.org/wiki/Resources">OpenWetWare</a>
+								<a target="_blank" title="代谢途径数据库" class="span_3" href="https://biocyc.org/">BioCyc</a>
+								<a target="_blank" title="植物代谢网络数据库" class="span_3" href="https://www.plantcyc.org/">PMP</a>
+								<a target="_blank" title="蛋白质相互作用验证" class="span_3" href="https://thebiogrid.org/">BioGRID</a>
+								<a target="_blank" title="一个很全面的综合分析网站，包括动物、植物和细菌的基因组学数据。还能在线执行在Softberry中开发的数百种应用程序，包括NGS，转录组分析，SNP检测，基因注释，蛋白质功能结构分析。" class="span_3" href="http://www.softberry.com/">Softberry</a>
+								
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#nucleic-acid">核酸预测与分析</a>
+						</div>
+						<div class="accordion-body collapse" id="nucleic-acid">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" title="搜索开放阅读框" href="http://emboss.bioinformatics.nl/cgi-bin/emboss/getorf">EMBOSS:getorf</a>
+								<a target="_blank" class="span_3" href="https://epd.epfl.ch//index.php">真核模式生物启动子</a>
+								<a target="_blank" title="植物启动子预测" class="span_3" href="https://www.dna.affrc.go.jp/PLACE/?action=newplace">植物顺式元件分析</a>
+								<a target="_blank" title="mRNA选择性剪切数据库" class="span_3" href="http://prosplicer.mbc.nctu.edu.tw/">ProSplicer</a>
+								<a target="_blank" title="顺式元件预测工具" class="span_3" href="https://zlab.bu.edu/~mfrith/cister.shtml">Cister</a>
+								<a target="_blank" class="span_3" href="http://parts.igem.org/Ribosome_Binding_Sites/Catalog">核糖体结合位点</a>
+								<a target="_blank" class="span_3" href="http://dbcat.cgm.ntu.edu.tw/">CpG Finder</a>
+								<a target="_blank" class="span_3" href="http://rebase.neb.com/rebase/rebase.html">NEB限制酶数据库</a>
+								<a target="_blank" title="RNA三维结构分析及动态图像程序集" href="http://kinemage.biochem.duke.edu/index.php">Kinemage</a>
+								<a target="_blank" class="span_3" href="http://arep.med.harvard.edu/ecoli_matrices/">大肠杆菌DNA结合位点</a>
+								<a target="_blank" class="span_3" href="http://www.kazusa.or.jp/codon/">密码子偏性数据库</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#structure">蛋白质结构数据库</a>
+						</div>
+						<div class="accordion-body collapse" id="structure">
+							<div class="accordion-inner">
+								<a target="_blank" title="酶蛋白热点分析" class="span_3" href="http://loschmidt.chemi.muni.cz/hotspotwizard/">HotSpot</a>
+								<a target="_blank" title="蛋白质溶剂可及性、分子间相互作用预测" class="span_3" href="http://www.ebi.ac.uk/msd-srv/prot_int/pistart.html">PISA</a>
+								<a target="_blank" class="span_3" href="http://harrier.nagahama-i-bio.ac.jp/sosui/">跨膜区预测</a>
+								<a target="_blank" title="一个高度可扩展的程序集，用于大分子结构和相关数据的交互可视化和分析，包括密度图，超分子组装，序列比对，对接结果，轨迹和构象整合" class="span_3" href="http://www.cgl.ucsf.edu/chimera/">UCSF Chimera</a>
+								<a target="_blank" class="span_3" href="https://www.ebi.ac.uk/intact/">蛋白质互作分析</a>
+								<a target="_blank" class="span_3" href="http://isoelectric.org/">等电点预测</a>
+								<a target="_blank" class="span_3" href="http://disulfind.dsi.unifi.it/">二硫键预测</a>
+								<a target="_blank" title="蛋白质与小分子亲和力数据库" class="span_3" href="http://www.bindingdb.org/bind/index.jsp">BindingDB</a>
+								<a target="_blank" title="两个年轻博士开发的大分子模拟软件，包括创建小分子三维结构，允许用户上传自己有趣的项目" class="span_3" href="https://simtk.org/">SimTK</a>
+								<a target="_blank" class="span_3" href="https://swift.cmbi.umcn.nl/gv/dssp/">二级结构分析</a>
+								<a target="_blank" class="span_3" href="https://www.phosphosite.org/homeAction">蛋白质转录后修饰</a>
+								<a target="_blank" class="span_3" href="http://zdock.umassmed.edu/">ZDOCK在线服务器</a>
+								<a target="_blank" title="预测蛋白质-配体结合位点" class="span_3" href="https://zhanglab.ccmb.med.umich.edu/COACH/">COACH</a>
+								<a target="_blank" title="小分子PDB结构，可用于AutoDock对接" class="span_3" href="http://mms.dsfarm.unipd.it/MMsINC/search/index.php">MMsINC</a>
+								<a target="_blank" class="span_3" href="http://www.cathdb.info/">蛋白质结构分类数据库</a>
+								<a target="_blank" class="span_3" href="http://www.ibi.vu.nl/programs/linkerdbwww/#opennewwindow">蛋白质linker数据库</a>
+								<a target="_blank" class="span_3" href="http://www.matrixscience.com/cgi/search_form.pl?FORMVER=2&SEARCH=PMF">肽指纹图谱数据库</a>		
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#genome">基因组数据库</a>
+						</div>
+						<div class="accordion-body collapse" id="genome">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="http://genome.ucsc.edu/">UCSC</a>
+								<a target="_blank" class="span_3" href="https://www.ncbi.nlm.nih.gov/snp/">dbSNP</a>
+								<a target="_blank" title="突变注释数据库（主要是人类的数据）" class="span_3" href="http://asia.ensembl.org/info/docs/tools/vep/index.html">VEP</a>
+								<a target="_blank" class="span_3" href="https://www.genome.jp/tools/kaas/">蛋白质注释服务器</a>
+								<a target="_blank" class="span_3" href="https://bigd.big.ac.cn/">中国国家基因组数据中心</a>
+								<a target="_blank" class="span_3" href="https://jimb.stanford.edu/giab/">瓶中基因组</a>
+								<a target="_blank" class="span_3" href="https://www.internationalgenome.org/data">千人基因组</a>
+								<a target="_blank" class="span_3" href="http://plants.ensembl.org/index.html">植物基因组</a>
+								<a target="_blank" class="span_3" href="http://rice.plantbiology.msu.edu/">MSU水稻基因组</a>
+								<a target="_blank" class="span_3" href="https://chinese.maizegdb.org/">玉米基因组</a>
+								<a target="_blank" class="span_3" href="https://www.yeastgenome.org/">酵母基因组</a>
+								<a target="_blank" class="span_3" href="https://cgsc.biology.yale.edu/index.php">大肠杆菌基因组</a>
+								<a target="_blank" title="NCBI原始测序数据下载" class="span_3" href="https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=announcement">SRA</a>
+								<a target="_blank" title="EBI原始测序数据下载" class="span_3" href="https://www.ebi.ac.uk/ena/browse/read-download">ENA</a>			
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#plasmid-strain">质粒与菌株数据库</a>
+						</div>
+						<div class="accordion-body collapse" id="plasmid-strain">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://www.snapgene.com/resources/plasmid-files/">SnapGene</a>
+								<a target="_blank" class="span_3" href="http://www.biofeng.com/zaiti/">生物风</a>
+								<a target="_blank" class="span_3" href="http://www.addgene.org/search/advanced/?q=pcDNA3.1%2B&depositor=&article=&gene=&vector=&tags=&advanced_query=&results_per_page=20&page=1">Addgene</a>
+								<a target="_blank" class="span_3" href="http://genome-www.stanford.edu/vectordb/vector.html">Vector db</a>
+								<a target="_blank" class="span_3" href="http://www.nimr.org.cn/indexAction.action">国家微生物资源平台</a>
+								<a target="_blank" class="span_3" href="https://www.atcc.org/">美国微生物资源中心</a>
+								<a target="_blank" class="span_3" href="https://www.dsmz.de/">德国微生物资源中心</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#tools">在线工具</a>
+						</div>
+						<div class="accordion-body collapse" id="tools">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://mafft.cbrc.jp/alignment/server/">序列比对</a>
+								<a target="_blank" class="span_3" href="https://www.bioinformatics.org/sms2/index.html">SMS工具集</a>
+								<a target="_blank" class="span_3" href="https://biodb.swu.edu.cn/qprimerdb/">qPCR引物检索 1</a>
+								<a target="_blank" class="span_3" href="https://pga.mgh.harvard.edu/primerbank/">qPCR引物检索 2</a>
+								<a target="_blank" class="span_3" href="http://icg.big.ac.cn/index.php/Main_Page">模式物种qPCR内参基因</a>
+								<a target="_blank" class="span_3" href="http://weblogo.threeplusone.com/create.cgi">WebLogo</a>
+								<a target="_blank" class="span_3" href="https://me.bdp.cn/index.html#/dash_edit/proj_b7fef0533d6eeac5af5d7520f0fdf843/dsh_ab7ef95435aaac76ad20f52bfd47bf52">数据可视化</a>
+								<a target="_blank" class="span_3" href="https://www.earthol.com/">地球在线</a>
+								<a target="_blank" class="span_3" href="http://www.newdruginfo.com/pharmacopeia/nsearch.asp">药典在线</a>
+								<a title="密码子优化工具" target="_blank" class="span_3" href="http://www.jcat.de/Start.jsp">Jcat</a>
+								<a title="思维导图" target="_blank" class="span_3" href="https://mubu.com/login">幕布</a>
+								<a target="_blank" class="span_3" href="https://mm.edrawsoft.cn/create">在线思维导图</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#chemistry">化学数据库</a>
+						</div>
+						<div class="accordion-body collapse" id="chemistry">
+							<div class="accordion-inner">
+								<a target="_blank" title="NIH维护的世界最大化学药品信息数据库" class="span_3" href="https://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
+								<form style="display: none;" target="_blank" id="csdb" name="form1" action="http://www.organchem.csdb.cn/scdb/main/slogin.asp" method="post">
+									<input type="text" name="Username" value="liuchen@406">  
+									<input type="password" name="Password" value="liuzhen">
+							    </form>
+								<a class="span_3" href="#" onclick="$('#csdb').submit();return false;">化学专业数据库</a>
+								<a target="_blank" class="span_3" href="http://www.chemspider.com/Search.aspx">化合物结构数据库</a>
+								<a target="_blank" class="span_3" href="https://toxnet.nlm.nih.gov/">毒物学数据库</a>
+								<a target="_blank" class="span_3" href="https://www.science-softcon.de/spectra/cas_1.php">UV/Vis数据库</a>
+								<a target="_blank" class="span_3" href="https://webbook.nist.gov/chemistry/">标准化合物数据库</a>
+								<a target="_blank" class="span_3" href="https://spectrabase.com/">有机物光谱数据库</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#literature">文献期刊数据库</a>
+						</div>
+						<div class="accordion-body collapse" id="literature">
+							<div class="accordion-inner">
+								<a target="_blank" title="打不开试试 https://sci-hub.se/" class="span_3" href="https://sci-hub.tw/">Sci-Hub</a>
+								<a target="_blank" class="span_3" href="https://vpn.zknu.edu.cn/login">周口师范VPN</a>
+								<a target="_blank" class="span_3" href="https://googles.now.sh/">谷歌镜像</a>
+								<a target="_blank" class="span_3" href="https://academic.microsoft.com/home">微软学术</a>
+								<a target="_blank" title="该引擎的学术搜索服务器位于国外" class="span_3" href="https://search.365deyu.cn/">聚合搜索</a>
+								<a target="_blank" class="span_3" href="http://dir.scmor.com/">全渠道搜索</a>
+								<a target="_blank" class="span_3" href="http://www.4243.net/">大木虫学术导航</a>
+								<a target="_blank" class="span_3" href="http://patft.uspto.gov/">美国专利检索及下载</a>
+								<a target="_blank" class="span_3" href="https://worldwide.espacenet.com/advancedSearch?DB=EPODOC&submitted=false&locale=en_EP&AB=&ST=advanced&compact=false">欧洲专利检索及下载</a>
+								<a target="_blank" class="span_3" href="http://cpquery.sipo.gov.cn/txnIndex.do?purl=http%3A%2F%2Fcpquery.sipo.gov.cn%2FtxnPantentInfoList.do%3Finner-flag%3Aopen-type%3Dwindow%26inner-flag%3Aflowno%3D1567485358851">国家专利检索平台</a>
+								<form style="display: none;" target="_blank" id="ftracker" action="http://www.ftracker.net/index.php/home/register/login.html" method="post">
+									<input type="text" name="username" value="liuzhen0106@126.com">  
+									<input type="password" name="password" value="liuzhen">
+							   </form>
+								<a class="span_3" href="javascript:void(0);" onclick="$('#ftracker').submit();">Ftracker(伯远)</a>
+								<a target="_blank" class="span_3" href="https://academic.oup.com/nar">核酸研究杂志</a>
+								<a target="_blank" class="span_3" href="https://www.pnas.org/">美国科学院院报</a>
+								<a target="_blank" class="span_3" href="http://nature.fanyigou.com/">Nature杂志</a>
+							</div>
+						</div>
+					</div>					
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#experimental">实验方法</a>
+						</div>
+						<div class="accordion-body collapse" id="experimental">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="http://cshprotocols.cshlp.org/">冷泉港实验手册</a>	
+								<a target="_blank" class="span_3" href="http://www.bioon.com.cn/protocol/protocols.shtml">分子生物学/细胞生物学实验方法</a>
+								<a target="_blank" class="span_3" href="http://blog.sciencenet.cn/blog-47726-223972.html">蛋白纯化资料大全</a>
+								<a target="_blank" class="span_3" href="http://www.labome.cn/method/index.html">实验材料与方法</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/744516e6310e">30个生物实验技术</a>								
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#biological-reagent">生物试剂公司</a>
+						</div>
+						<div class="accordion-body collapse" id="biological-reagent">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://www.neb.sg/">NEB</a>
+								<a target="_blank" class="span_3" href="https://www.thermofisher.com/cn/zh/home.html">Thermo</a>
+								<a target="_blank" class="span_3" href="https://www.takarabiomed.com.cn/">TaKaRa</a>
+								<a target="_blank" class="span_3" href="http://www.vazyme.com/Home.html">诺维赞</a>
+								<a target="_blank" class="span_3" href="http://www.tiangen.com/">天根</a>
+								<a target="_blank" class="span_3" href="http://www.transgen.com.cn/">全式金</a>
+								<a target="_blank" class="span_3" href="https://www.sangon.com/product">上海生工</a>
+								<a target="_blank" class="span_3" href="https://www.yeasen.com/">上海翊圣</a>
+								<a target="_blank" class="span_3" href="http://www.tsingke.net/shop/">北京擎科</a>
+								<a target="_blank" class="span_3" href="http://www.foregene.com/">成都福际生物</a>
+								<a target="_blank" class="span_3" href="http://www.mei5bio.com/">北京聚合美</a>
+								<a target="_blank" class="span_3" href="https://www.zymoresearch.com/">核酸纯化</a>
+								<a target="_blank" class="span_3" href="https://www.illumina.com/">illumina</a>
+								<a target="_blank" class="span_3" href="https://abclonal.com.cn/">爱博泰克</a>
+								<a target="_blank" class="span_3" href="https://www.abcam.com/">Abcam抗体</a>
+								<a target="_blank" class="span_3" href="https://www.scbt.com/home;jsessionid=41Kud7rKsxMcLz1nl1LiVvqHf2r2tTDL4U4cCj00h-hxtXDu_nKf!-349695827">圣克鲁斯抗体</a>
+								<a target="_blank" class="span_3" href="https://cn.sinobiological.com/">北京义翘神州</a>
+								<a target="_blank" class="span_3" href="https://www.ptgcn.com/">武汉三鹰</a>
+								<a target="_blank" class="span_3" href="https://www.abace-biology.com/">北京安必奇生物</a>
+								<a target="_blank" class="span_3" href="https://www.genscript.com.cn/">南京金斯瑞</a>		
+								<a target="_blank" class="span_3" href="https://www.cwbiotech.com/">康为世纪</a>
+								<a target="_blank" class="span_3" href="http://www.cusabio.cn/pro.html">武汉华美生物</a>
+								<a target="_blank" class="span_3" href="http://www.fulengen.com/category/product/">广州复能基因</a>
+								<a target="_blank" class="span_3" href="http://www.novopro.cn/articles/">上海纽普生物</a>
+								<a target="_blank" class="span_3" href="http://www.haigene.cn/">哈尔滨新海基因</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#biotechnology">生物技术</a>
+						</div>
+						<div class="accordion-body collapse" id="biotechnology">
+							<div class="accordion-inner">
+								<a target="_blank" title="弗朗西斯·阿诺德教授研究团队网站" class="span_3" href="http://fhalab.caltech.edu/">Arnold Group</a>
+								<a target="_blank" class="span_3" href="http://www.labome.org/">一些高水品研究论文</a>
+								<a target="_blank" class="span_3" href="http://www.mdbbs.org/forum.php">分子模拟论坛 1</a>
+								<a target="_blank" class="span_3" href="#">分子模拟论坛 2</a>
+								<a target="_blank" class="span_3" href="https://www.drugfuture.com/">药物信息、专利情报</a>
+								<a target="_blank" class="span_3" href="https://clinicaltrials.gov/">临床研究进展</a>
+								<a target="_blank" class="span_3" href="https://www.chemicalbook.com/ChemicalProductProperty_EN_CB8215961.htm">化学试剂查询</a>
+								<a target="_blank" class="span_3" href="https://microbewiki.kenyon.edu/index.php/MicrobeWiki">微生物百科</a>
+								<a target="_blank" class="span_3" href="http://www.bio-soft.net/">生物软件网</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/Simulation-Campus/p/9001499.html">Matlab参数拟合</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/Simulation-Campus/p/8991159.html">Matlab文件操作</a>
+								<a target="_blank" class="span_3" href="http://zifit.partners.org/ZiFiT/Introduction.aspx">ZFN基因编辑</a>
+								<a target="_blank" class="span_3" href="https://tale-nt.cac.cornell.edu/">Talent基因编辑</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#computer_course">计算机教程</a>
+						</div>
+						<div class="accordion-body collapse" id="computer_course">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://www.w3cschool.cn/">W3Cschool</a>
+								<a target="_blank" class="span_3" href="https://www.runoob.com/linux/linux-tutorial.html">菜鸟教程</a>
+								<a target="_blank" class="span_3" href="http://wiki.jikexueyuan.com/">极客学院</a>
+								<a target="_blank" class="span_3" href="https://www.icourse163.org/">中国大学MOOC</a>
+								<a target="_blank" title="一位IT大佬维护的IT技术网站，有很多干货" class="span_3" href="http://www.iteedu.com/categories/">编程学习网</a>
+								<a target="_blank" class="span_3" href="https://serialmentor.com/dataviz/index.html">数据可视化</a>
+								<a target="_blank" class="span_3" href="https://jerkwin.coding.me/">GROMACS中文教程(李继存)</a>
+								<a target="_blank" class="span_3" href="https://blog.csdn.net/xiaofengwu123/article/details/54292443">微信小程序入门</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#web">前端学习</a>
+						</div>
+						<div class="accordion-body collapse" id="web">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://www.w3cschool.cn/html/">HTML教程</a>
+								<a target="_blank" class="span_3" href="https://www.w3cschool.cn/javascript/">javascript教程</a>
+								<a target="_blank" class="span_3" href="https://www.w3cschool.cn/css/">CSS教程</a>
+								<a target="_blank" class="span_3" href="https://c.runoob.com/front-end/61">HTML/CSS/js在线工具</a>
+								<a target="_blank" class="span_3" href="https://www.w3cschool.cn/php/php-ref-filesystem.html">PHP教程</a>
+								<a target="_blank" class="span_3" href="https://www.w3cschool.cn/jquery/">jQuery教程</a>
+								<a target="_blank" class="span_3" href="https://v4.bootcss.com/docs/getting-started/introduction/">Bootstrap教程</a>
+								<a target="_blank" class="span_3" href="https://www.bootcss.com/p/layoutit/">Bootstrap可视化系统</a>
+								<a target="_blank" class="span_3" href="https://www.javascriptcn.com/html/html-tutorial.html">JavaScript中文网</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/zhuzhenwei918/p/6099740.html">HTML代码规范</a>
+								<a target="_blank" class="span_3" href="https://devinduct.com/blogpost/22/javascript-clean-code-best-practices">JavaScript代码规范</a>
+								<a target="_blank" class="span_3" href="https://developer.mozilla.org/zh-CN/docs/Web">Web开发技术</a>
+								<a target="_blank" class="span_3" href="https://html-color-codes.info/chinese/">HTML色彩代码</a>
+								<a target="_blank" class="span_3" href="http://tool.chinaz.com/Tools/jsformat.aspx">格式化HTML/js代码</a>
+								<a target="_blank" class="span_3" href="http://c.runoob.com/front-end/854">正则在线测试</a>
+								<a target="_blank" class="span_3" href="https://www.iconfont.cn/collections/index?spm=a313x.7781069.1998910419.3">阿里矢量图标库</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#python">Python学习</a>
+						</div>
+						<div class="accordion-body collapse" id="python">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://www.w3cschool.cn/python3/">Python教程</a>
+								<a target="_blank" class="span_3" href="https://github.com/TheAlgorithms/Python">Python算法</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/8b6c425b65a6">Python代码规范</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/aland-1415/p/7128121.html">Python3从入门到开车</a>
+								<a target="_blank" class="span_3" href="https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md">Python进阶</a>
+								<a target="_blank" class="span_3" href="http://aosabook.org/en/">500 Lines or Less</a>
+								<a target="_blank" class="span_3" href="https://github.com/HT524/500LineorLess_CN">500 line or less中文</a>
+								<a target="_blank" class="span_3" href="https://seancheney.gitbook.io/python-for-data-analysis-2nd/">《Python数据分析》第二版</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/zeke-python-road/p/8986318.html">Excel操作模块</a>
+								<a target="_blank" class="span_3" href="https://www.runoob.com/python3/python3-reg-expressions.html">Python正则</a>
+								<a target="_blank" class="span_3" href="https://wiki.ubuntu.org.cn/Python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97">Python正则指南</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/EmptyFS/category/910653.html">Python Web开发框架</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/19d96f7107a0">Tkinter初级教程</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/311749e3b91a">Tkinter项目实战</a>
+								<a target="_blank" class="span_3" href="http://effbot.org/tkinterbook/">Tkinter使用说明(英文)</a>
+								<a target="_blank" class="span_3" href="https://cuiqingcai.com/">崔庆才博客</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/9c266216957b">requests与beautiful soup基础</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/7fd923413e12?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation">requests库基本使用</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/e4666b7c6c54https://www.jianshu.com/p/e4666b7c6c54">requests库高级用法</a>
+								<a target="_blank" class="span_3" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html">bs4官方文档</a>
+								<a target="_blank" class="span_3" href="https://selenium-python.readthedocs.io/api.html">WebDriver使用说明</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/641d45a601a8">Selenium库说明</a>
+								<a target="_blank" class="span_3" href="https://github.com/Kr1s77/awesome-python-login-model">模拟登陆一些大型网站</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#linux">linux系统</a>
+							</div>
+							<div class="accordion-body collapse" id="linux">
+								<div class="accordion-inner">
+									<a target="_blank" class="span_3" href="https://www.mankier.com/">Linux命令使用手册</a>
+									<a target="_blank" class="span_3" href="https://www.jianshu.com/p/161618366866">shell编程规范</a>
+									<a target="_blank" class="span_3" href="https://man.linuxde.net/">Linux命令大全 1</a>
+									<a target="_blank" class="span_3" href="http://linux.51yip.com/">Linux命令大全 2</a>
+									<a target="_blank" class="span_3" href="https://www.cnblogs.com/xqzt/p/5380086.html">每天一个Linux命令</a>
+									<a target="_blank" class="span_3" href="http://www.linuxplus.org/kb/">高级Bash脚本编程指南-中文</a>
+									<a target="_blank" class="span_3" href="https://blog.csdn.net/u013694670/article/details/67694195">shell中的多进程</a>
+									<a target="_blank" class="span_3" href="https://linux.cn/article-2188-1.html">利用多核CPU加速Linux命令</a>
+									<a target="_blank" class="span_3" href="https://regexr.com/">正则表达式</a>
+									<a target="_blank" class="span_3" href="https://www.iteedu.com/categories/">“证心”大神的网站</a>
+								</div>
+							</div>
+						</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#ggplot2">ggplot2绘图</a>
+						</div>
+						<div class="accordion-body collapse" id="ggplot2">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/3664cc9f0e2b">R语言中文社区历史文章</a>
+								<a target="_blank" class="span_3" href="https://cosx.org/archives/">统计之都文章列表</a>
+								<a target="_blank" class="span_3" href="http://ggplot.yhathq.com/docs/geom_abline.html">ggplot2几何对象Docs</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/duanxingxing/p/5441883.html">ggplot2简单介绍</a>
+								<a target="_blank" class="span_3" href="https://www.jianshu.com/p/03719d7c207f">ggplot2实用指南</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/nxld/p/6059603.html">ggplot2包简介</a>
+								<a target="_blank" class="span_3" href="https://blog.csdn.net/bone_ace/article/details/47427453">ggplot2之坐标系</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/zongfa/p/8535350.html">ggplot2画图示例</a>
+								<a target="_blank" class="span_3" href="https://blog.csdn.net/msw521sg/article/details/52882000">ggplot2画箱线图</a>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-parent="#database" data-toggle="collapse" href="#ngs">NGS数据分析</a>
+						</div>
+						<div class="accordion-body collapse" id="ngs">
+							<div class="accordion-inner">
+								<a target="_blank" class="span_3" href="http://www.huangshujia.me/tags/WGS/">全基因测序数据分析(黄树嘉)</a>
+								<a target="_blank" class="span_3" href="https://mp.weixin.qq.com/s/ecm_WibfxB6bTM5NabZBKw">直播我的基因组分析(曾健明)</a>
+								<a target="_blank" class="span_3" href="https://mp.weixin.qq.com/s/oo73T4Ym0M6pjVM9mQoT_w">生信媛公众号文章目录</a>
+								<a target="_blank" class="span_3" href="https://mp.weixin.qq.com/s/Gr_0H4-GaTYkgUkbNHcMcg">生信基础100讲(生信技能树)</a>
+								<a target="_blank" class="span_3" href="https://mp.weixin.qq.com/s/VguRtaGpEcaNzmZEi48gLg">生信宝典文章目录(陈同)</a>
+								<a target="_blank" class="span_3" href="https://blog.csdn.net/woodcorpse/article/details/77919963">扩增子2分析流程(刘永鑫)</a>
+								<a target="_blank" class="span_3" href="https://bioinformatics.cvr.ac.uk/illumina-adapter-and-primer-sequences/">Illumina接头与引物序列</a>
+								<a target="_blank" class="span_3" href="http://samtools.sourceforge.net/swlist.shtml">生信分析软件</a>
+								<a target="_blank" class="span_3" href="https://www.biostars.org/t/">生信论坛</a>
+								<a title="去接头" target="_blank" class="span_3" href="https://www.jianshu.com/p/a8935adebaae">Trimmomatic使用说明</a>
+								<a target="_blank" class="span_3" href="https://www.cnblogs.com/xiaofeiIDO/p/6805373.html">Samtools使用说明</a>
+								<a target="_blank" class="span_3" href="https://software.broadinstitute.org/gatk/">GATK官方文档</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pagination pagination-centered">
+					<img alt="蛋白质矿工" src="http://liuzhen106.com/img/gongzhonghao.jpg" width="100">
+					<p>Created By LiuZhen，网站已被访问<span id="visit"></span>次</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+        $.post("http://liuzhen106.com/visitStat.php", function(data) {$("#visit").html(data);});
+    </script>
+</body>
+</html>
