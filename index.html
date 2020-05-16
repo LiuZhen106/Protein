@@ -7,9 +7,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>LiuZhen's Home</title>
-	<link rel="stylesheet" href="http://liuzhen106.com/css/bootstrap.min.css">
-	<script type="text/javascript" src="http://liuzhen106.com/js/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="http://liuzhen106.com/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 	<style>
 		a:link {text-decoration: none;}
 		a:visited {text-decoration: none;}
@@ -460,13 +460,9 @@
 				</div>
 				<div class="pagination pagination-centered">
 					<img alt="蛋白质矿工" src="http://liuzhen106.com/img/gongzhonghao.jpg" width="100">
-					<p>Created By LiuZhen，网站已被访问<span id="visit"></span>次</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script>
-        $.post("http://liuzhen106.com/visitStat.php", function(data) {$("#visit").html(data);});
-    </script>
 </body>
 </html>
